@@ -1,29 +1,17 @@
 class Ogrenci {
-  int _id = 1;
-  int _not = 1;
+  int id;
+  int notDegeri;
 
-  Ogrenci(int id, int not){
-    OgrenciIdKontrol = id;
-    OgrenciNoKontrol = not;
+  Ogrenci({this.id = 1, this.notDegeri = 1});
+
+  @override
+  String toString() {
+    // TODO: implement toString
+    return "ID : $id Not değeri: $notDegeri";
+  }
+   
   }
 
 
-  void set OgrenciIdKontrol(int deger1){
+  
 
-    if (deger1 > 0){
-      _id = deger1;
-    } else {
-      _id = 1;
-    }
-  }
-
-  void set OgrenciNoKontrol(int deger2){
-
-    if (deger2 > 0){
-      _not = deger2;
-    } else {
-      _not = 1;
-    }
-  }
-
-}

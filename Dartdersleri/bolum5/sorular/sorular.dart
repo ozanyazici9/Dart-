@@ -11,6 +11,6 @@ import 'CemberDaire.dart';
 void main(List<String> args) {
   //soru1
   CemberDaire cb = CemberDaire(4);
-  cb.CevreHesapla();
-  cb.AlanHesapla();
+  print("Çevre : ${cb.CevreHesapla()}");
+  print("Alan : ${cb.AlanHesapla()}");
 }

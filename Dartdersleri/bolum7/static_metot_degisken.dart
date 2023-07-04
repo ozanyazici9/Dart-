@@ -14,7 +14,7 @@ void main(List<String> args) {
 
 }
 class Matematik {
-  //instance variable bunları kullanmak için mutlaka bir nesne üretilmek zorunda. Instance variablelar, metotlar static alan içinden erişilemez ama tam tersi olur.
+  //instance variable bunları kullanmak için mutlaka bir nesne üretilmek zorunda. Instance variablelar ve metotlar, static alan içinden erişilemez ama tam tersi olur.
   int birinciSayi = 0;
   int ikinciSayi = 0;
   static int toplamIslemSayisi = 0; // instance variable olarak yaptığımızda nesne nin yaptığı toplam işlem sayısını veriyor sadece ama diğer nesnelerle yapılan işlemlerin de dahil edilmesini istiyorum onun için bu değişkenin static olarak tanımlayıp sınıf değikeni yapmalıyım.

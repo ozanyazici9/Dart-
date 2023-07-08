@@ -3,7 +3,7 @@ void main(List<String> args) {
   m1.topla();
   m1.cikar();
 
-   Matematik m2 =Matematik(30, 10);
+   Matematik m2 = Matematik(30, 10);
   m2.topla();
   m2.cikar();
 

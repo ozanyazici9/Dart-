@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  var str = "ozan"; // değişken atayıp değer verdiğim zaman bellekte ayrılan alana "ozan" değeri verdi. Daha sonra değişkenin değerini değiştirdiğimde daha önce ayrılan alandaki tutlan değer değişmiyor yani orda "ozan" değeri hala duruyor onun yerine bellekte başka bir alan oluşturuluyor ve onun içine yeni girilen değer yazılıyor. bu örnekte "yazıcı". Bu bellekteki ayrılan alanlaarın değişmezliğini gösteriyor bize. Daha sonra çöp toplayıcı gelip kullanılmayan alanı temizliyor.
+  var str = "ozan"; // değişken atayıp değer verdiğim zaman bellekte ayrılan alana "ozan" değeri verdi. Daha sonra değişkenin değerini değiştirdiğimde daha önce ayrılan alandaki tutlan değer değişmiyor yani orda "ozan" değeri hala duruyor onun yerine bellekte başka bir alan oluşturuluyor ve onun içine yeni girilen değer yazılıyor. bu örnekte "yazıcı". Bu bellekteki ayrılan alanların değişmezliğini gösteriyor bize. Daha sonra çöp toplayıcı gelip kullanılmayan alanı temizliyor.
   str = "yazıcı";
 
   final String str2 = "ozan";
